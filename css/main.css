@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: rgb(213, 225, 241);
+}
+
 .title {
     padding-top: 10px;
 }
@@ -14,12 +18,21 @@
 .box-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding: 40px 0 40px 0;
     gap: 20px;
     justify-content: center;
 }
 
+.box-container .box {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box-container .box:hover {
+    box-shadow: 4px 2px 5px 8px rgba(73, 133, 182, 0.8);
+}
+
 .box-container .image-film img {
     width: 250px;
-    height: 380px;
+    height: 350px;
 }
