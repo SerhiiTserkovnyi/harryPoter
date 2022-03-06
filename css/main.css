@@ -30,9 +30,32 @@ body {
 
 .box-container .box:hover {
     box-shadow: 4px 2px 5px 8px rgba(73, 133, 182, 0.8);
+    transition: all 1s ease-out;
 }
 
 .box-container .image-film img {
     width: 250px;
     height: 350px;
+}
+
+.next-page {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(116, 113, 113);
+}
+
+.next-page .open-page {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.next-page .open-page:hover {
+    background-color: rgba(73, 133, 182, 0.8);
+    color: rgb(19, 18, 18);
+    transition: all 0.5s ease-out;
 }
