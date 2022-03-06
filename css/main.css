@@ -1,5 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.title h1 {
+    text-align: center;
+}
+
 .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    padding-top: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box-container .image-film img {
+    width: 250px;
+    height: 380px;
 }

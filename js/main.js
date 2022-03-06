@@ -5,8 +5,8 @@ async function getResponse() {
     console.log(response);
     response.slice(0, 25).forEach(({ name, alternate_names, species, image }) => {
 
-        boxContainer.innerHTML += `<div class="box"><div class="title">${name}</div>
-        <div class="name">${alternate_names}</div><div class="species">${species}</div>
+        boxContainer.innerHTML += `<div class="box"><div class="actor-name">${name}</div>
+        <div class="species">${species}</div>
         <div class="image-film"><img src="${image}"></div></div>`;
     });
 
